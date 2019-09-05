@@ -17,7 +17,7 @@ for j in range(0,3):
         else:
             s=s+chr(random.randrange(33,48))
     print(len(s))
-    print(s);
+    print(s)
     
 
 
