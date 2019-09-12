@@ -1,8 +1,8 @@
 class univauto:
-         def _init_(self,sid,age, marks):
-             self.sid=None
-             self.age=None
-             self.marks=None
+         def __init__(self,sid,age, marks):
+             self.__sid=None
+             self.__age=None
+             self.__marks=None
          def validate_marks(self):
             if(self.marks>=0 and self.marks<=100):
                 return True
